@@ -1,0 +1,7 @@
+SINS avoided:
+
+Entries are not placed or hard coded into the database, instead it uses the Fortify tool of Laravel to handle queries.
+
+My registration has input validation. The system blocks everything except the necessary inputs.
+
+The database used does not expose the password when seen through the database. The passwords are encrypted for safety against hackers.
